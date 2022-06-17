@@ -17,7 +17,7 @@ class AdapterPagamento(private val context: Context, private val listaPagamento:
     }
 
     override fun onBindViewHolder(holder: PagamentoViewHolder, position: Int) {
-        holder.iconePagamento.setBackgroundResource(listaPagamento[position].icone!!)
+         holder.iconePagamento.setBackgroundResource(listaPagamento[position].icone!!)
         holder.txtTituloPagamento.text = listaPagamento[position].titulo
     }
 
